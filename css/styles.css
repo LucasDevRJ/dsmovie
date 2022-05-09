@@ -3,5 +3,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
 * {
+    box-sizing: border-box; /* Para que a borda dos elementos não ocupe uma área */
     font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+    background-color: #DDDDDD;
+}
+
+header {
+    background-color: #4D41C0;
+    color: #FFFFFF;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: unset; /* Não possui uma cor definida */
 }
